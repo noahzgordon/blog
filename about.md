@@ -1,12 +1,12 @@
 ---
 layout: page
 title: About
-subtitle: Just who the hell you think I am?
+subtitle: just a guy with a brain trying to make his brain better
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hi! My name's Noah, and this is where I put the thoughts that are sane enough to share with the outside world.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+You can get in touch with me by [email](mailto:noahzacharygordon@gmail.com) or twitter (see top right). And you can find out more about me at my [professional website](http://www.noahzgordon.com) or [Wikipedia page](http://en.wikipedia.org/wiki/Noah_Gordon_(novelist)).
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+(jk, I am not the award-winning author of *The Last Jew*)

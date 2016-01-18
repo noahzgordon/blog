@@ -4,7 +4,7 @@ description: >
   Welcome to my website. Feel free to browse my random musings
   while I come up with a better description to go here.
 
-baseurl: "/blog/" # the subpath of your site, e.g. /blog/
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
 url: "noahzgordon.com" # the base hostname & protocol for your site
 
 author:
