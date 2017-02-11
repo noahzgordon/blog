@@ -68,7 +68,7 @@ Natural languages, like programming languages, are fluid. While the essential bu
 
 Consider this past summer's quarterly update to the Oxford English dictionary; among the words added are 'awesomesauce', 'microaggression', 'subreddit' and 'hangry.' These words would have been meaningless to a year 2000 English language user, but are part of the 2015 user's essential vocabulary. Similarly, new abstractions are introduced to code as they acquire meaning or become useful in multiple places, and are removed as they lose meaning (just as some dictionaries periodically purge antiquated words).
 
-Sure, one might say "she is angry because she is hungry," but the concept of 'hangry' is now has enough standalone meaning to deserve its own official portmanteau. Compare this to Martin Fowler's 'Rule of Three' refactoring rule -- it's best to wait until the meaning behind an abstraction is well-understood before introducing it. 
+Sure, one might say "she is angry because she is hungry," but the concept of 'hangry' now has enough standalone meaning to deserve its own official portmanteau. Compare this to Martin Fowler's 'Rule of Three' refactoring rule -- it's best to wait until the meaning behind an abstraction is well-understood before introducing it. 
 
 # The In-Laws
 
