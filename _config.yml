@@ -1,7 +1,7 @@
 # Site settings
-title: NoahZGordon
+title: noahzgordon
 description: >
-  Welcome to my website. Feel free to browse my random musings
+  welcome to my website. feel free to browse my random musings
   while I come up with a better description to go here.
 
 baseurl: "/blog" # the subpath of your site, e.g. /blog/
@@ -10,7 +10,7 @@ url: "noahzgordon.com" # the base hostname & protocol for your site
 author:
   fullname: Noah Gordon
   github: noahzgordon
-  twitter: tortugaNG
+  twitter: noahzgordon
 
 google_analytics: 'UA-54587503-1'
 

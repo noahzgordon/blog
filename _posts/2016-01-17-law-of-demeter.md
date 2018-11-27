@@ -3,6 +3,7 @@ layout: post
 title:  "The Law of Demeter in Spanish"
 subtitle: "some thoughts on natural and programming languages"
 date:   2016-01-17 18:13:04
+
 categories: [code]
 ---
 
@@ -10,31 +11,23 @@ Here I want to write about how a simple language construction which we take for 
 
 I was trying to construct a sentence referencing my mother-in-law's jacket. Of course, with some basic Spanish it's not that hard: you just need the appropriate basic nouns and knowledge of how to describe possession, which most Americans can already grok:
 
-```la chaqueta de la madre de mi esposa```
+> la chaqueta de la madre de mi esposa
 
-Of course, chaining possessives like this is 'no bueno.' It's akin to saying in English, "the jacket of the mother of my wife" -- while not grammatically incorrect, it's clumsy and awkward when spoken aloud. While a Spanish teacher might just say "no, that's wrong, try this," we programmers have a more precise definition of what's wrong with it. 
+Of course, chaining possessives like this is 'no bueno.' It's akin to saying in English, "the jacket of the mother of my wife" -- while not grammatically incorrect, it's clumsy and awkward when spoken aloud. A Spanish teacher might just say "no, that's wrong, try this," but we programmers have another lens with which to describe what's wrong with it. 
 
 Enter the Law of Demeter.
 
-```
+~~~~
 The Law of Demeter (LoD) or principle of least knowledge is a design guideline for developing software, particularly object-oriented programs. In its general form, the LoD is a specific case of loose coupling. The guideline was proposed at Northeastern University towards the end of 1987, and can be succinctly summarized in each of the following ways:
-```
 
-```
 1. Each unit should have only limited knowledge about other units: only units "closely" related to the current unit.
-```
 
-```
 2. Each unit should only talk to its friends; don't talk to strangers.
-```
 
-```
 3. Only talk to your immediate friends.
-```
 
-```
 (source: Wikipedia)
-```
+~~~~
 
 This is fine and good for a technical definition, but when it comes to most programming concepts, we want to internalize. We want second-nature. I don't just want to know why LoD violations are incorrect, technically; I want to *feel* their incorrectness in the same way I feel that "the jacket of the mother of my wife" is awkward.
 
@@ -76,21 +69,15 @@ One of the advantages to encapsulating meaning this way is that now the meaning 
 
 Consider the technical definition of the word "in-laws." Now consider the social meaning the word has acquired over the years. 
 
-```
+~~~~
 In-law: Someone who will be a prime suspect after your murder. Usually mother-in-laws are the worst, not because of their hatred of you, but because they will question you to death.
-```
 
-```
 Stereotypical veteran father-in-law: "Let me show you my M14."
-```
-
-```
+ 
 Mother-in-law: "You should take better care of the kids, they're only 21 you know."
-```
 
-```
 (source: UrbanDictionary.com)
-```
+~~~~
 
 All of this new nuance, and the English language doesn't even have to slot in a new word!
 

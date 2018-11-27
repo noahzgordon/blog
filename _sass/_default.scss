@@ -31,7 +31,7 @@ blockquote {
     letter-spacing: 3px;
     margin:0px;
     margin-top: 40px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
     padding: 0px;
     text-align: center;
     position: relative;
@@ -120,8 +120,7 @@ strong {
 
 /* =Titles */
 .page-title {
-    margin-top:100px;
-    margin-bottom:125px;
+    margin: 75px auto;
     text-align: center;
 }
 
@@ -131,6 +130,7 @@ strong {
 }
 
 .page-title__subtitle {
+    margin-top: 20px;
     font-weight: 400;
     font-size: 22px;
     color: $cloudy;
